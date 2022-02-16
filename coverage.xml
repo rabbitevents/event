@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1644828864">
+  <project timestamp="1644828864">
+    <file name="/Volumes/work/rabbitevents-dev/event/src/Commands/ObserverMakeCommand.php">
+      <class name="RabbitEvents\Event\Commands\ObserverMakeCommand" namespace="global">
+        <metrics complexity="6" methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="0" elements="21" coveredelements="0"/>
+      </class>
+      <line num="43" type="method" name="buildClass" visibility="protected" complexity="1" crap="2" count="0"/>
+      <line num="45" type="stmt" count="0"/>
+      <line num="53" type="method" name="getStub" visibility="protected" complexity="1" crap="2" count="0"/>
+      <line num="55" type="stmt" count="0"/>
+      <line num="65" type="method" name="replaceModel" visibility="protected" complexity="2" crap="6" count="0"/>
+      <line num="67" type="stmt" count="0"/>
+      <line num="69" type="stmt" count="0"/>
+      <line num="71" type="stmt" count="0"/>
+      <line num="72" type="stmt" count="0"/>
+      <line num="74" type="stmt" count="0"/>
+      <line num="77" type="stmt" count="0"/>
+      <line num="78" type="stmt" count="0"/>
+      <line num="79" type="stmt" count="0"/>
+      <line num="83" type="stmt" count="0"/>
+      <line num="85" type="stmt" count="0"/>
+      <line num="87" type="stmt" count="0"/>
+      <line num="89" type="stmt" count="0"/>
+      <line num="98" type="method" name="getDefaultNamespace" visibility="protected" complexity="1" crap="2" count="0"/>
+      <line num="100" type="stmt" count="0"/>
+      <line num="108" type="method" name="getOptions" visibility="protected" complexity="1" crap="2" count="0"/>
+      <line num="111" type="stmt" count="0"/>
+      <metrics loc="114" ncloc="65" classes="1" methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="0" elements="21" coveredelements="0"/>
+    </file>
+    <file name="/Volumes/work/rabbitevents-dev/event/src/EventServiceProvider.php">
+      <class name="RabbitEvents\Event\EventServiceProvider" namespace="global">
+        <metrics complexity="3" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="6" coveredelements="0"/>
+      </class>
+      <line num="10" type="method" name="boot" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="12" type="stmt" count="0"/>
+      <line num="15" type="method" name="register" visibility="public" complexity="2" crap="6" count="0"/>
+      <line num="17" type="stmt" count="0"/>
+      <line num="18" type="stmt" count="0"/>
+      <line num="21" type="stmt" count="0"/>
+      <metrics loc="23" ncloc="23" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="6" coveredelements="0"/>
+    </file>
+    <file name="/Volumes/work/rabbitevents-dev/event/src/MessageFactory.php">
+      <class name="RabbitEvents\Event\MessageFactory" namespace="global">
+        <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+      </class>
+      <line num="12" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="20" type="method" name="make" visibility="public" complexity="2" crap="2" count="2"/>
+      <line num="22" type="stmt" count="2"/>
+      <line num="24" type="stmt" count="2"/>
+      <line num="25" type="stmt" count="1"/>
+      <line num="28" type="stmt" count="2"/>
+      <metrics loc="30" ncloc="26" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+    </file>
+    <file name="/Volumes/work/rabbitevents-dev/event/src/Publisher.php">
+      <class name="RabbitEvents\Event\Publisher" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </class>
+      <line num="7" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="17" type="method" name="publish" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="19" type="stmt" count="1"/>
+      <metrics loc="21" ncloc="15" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+    </file>
+    <file name="/Volumes/work/rabbitevents-dev/event/src/ShouldPublish.php">
+      <metrics loc="23" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/Volumes/work/rabbitevents-dev/event/src/Support/AbstractPublishableEvent.php">
+      <class name="RabbitEvents\Event\Support\AbstractPublishableEvent" namespace="global">
+        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="10" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/Volumes/work/rabbitevents-dev/event/src/Support/Publishable.php">
+      <class name="RabbitEvents\Event\Support\Publishable" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="13" type="method" name="publish" visibility="public" complexity="1" crap="1" count="6"/>
+      <line num="15" type="stmt" count="6"/>
+      <metrics loc="17" ncloc="13" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="/Volumes/work/rabbitevents-dev/event/src/Support/PublishableEventTesting.php">
+      <class name="RabbitEvents\Event\Support\PublishableEventTesting" namespace="global">
+        <metrics complexity="6" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="12" coveredelements="12"/>
+      </class>
+      <line num="11" type="method" name="fake" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="13" type="stmt" count="5"/>
+      <line num="16" type="method" name="assertPublished" visibility="public" complexity="4" crap="4" count="3"/>
+      <line num="18" type="stmt" count="3"/>
+      <line num="19" type="stmt" count="3"/>
+      <line num="20" type="stmt" count="3"/>
+      <line num="24" type="stmt" count="3"/>
+      <line num="25" type="stmt" count="2"/>
+      <line num="28" type="method" name="assertNotPublished" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="30" type="stmt" count="2"/>
+      <line num="31" type="stmt" count="2"/>
+      <line num="32" type="stmt" count="2"/>
+      <metrics loc="34" ncloc="34" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="12" coveredelements="12"/>
+    </file>
+    <file name="/Volumes/work/rabbitevents-dev/event/src/functions.php">
+      <line num="8" type="stmt" count="0"/>
+      <line num="11" type="stmt" count="6"/>
+      <line num="12" type="stmt" count="0"/>
+      <line num="18" type="stmt" count="0"/>
+      <line num="19" type="stmt" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <line num="29" type="stmt" count="0"/>
+      <line num="34" type="stmt" count="6"/>
+      <line num="35" type="stmt" count="6"/>
+      <line num="36" type="stmt" count="6"/>
+      <metrics loc="38" ncloc="38" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="4" elements="10" coveredelements="4"/>
+    </file>
+    <metrics files="9" loc="310" ncloc="234" classes="6" methods="15" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="47" coveredstatements="21" elements="62" coveredelements="29"/>
+  </project>
+</coverage>
