@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 use Illuminate\Support\Arr;
 use Illuminate\Container\Container;
 use RabbitEvents\Event\Publisher;
@@ -9,7 +11,7 @@ if (!function_exists('publish')) {
     function publish($event, array $payload = [])
     {
         if (is_string($event)) {
-            $event = new class($event, $payload) implements ShouldPublish {
+            $event = new class ($event, $payload) implements ShouldPublish {
                 private $event;
                 private $payload;
 
@@ -30,7 +32,7 @@ if (!function_exists('publish')) {
                 }
             };
         }
-        
+
         Container::getInstance()
             ->make(Publisher::class)
             ->publish($event);
