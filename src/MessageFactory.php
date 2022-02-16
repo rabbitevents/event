@@ -15,10 +15,6 @@ class MessageFactory
     {
     }
 
-    /**
-     * @param ShouldPublish $event
-     * @return Message
-     */
     public function make(ShouldPublish $event): Message
     {
         $payload = $event->toPublish();
