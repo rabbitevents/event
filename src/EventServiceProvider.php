@@ -14,7 +14,7 @@ class EventServiceProvider extends ServiceProvider
     {
         $this->app->singleton(
             Publisher::class,
-            fn($app) => new Publisher(new MessageFactory($app[Context::class]->getTransport()))
+            static fn($app) => new Publisher(new MessageFactory($app[Context::class]->getTransport()))
         );
     }
 
